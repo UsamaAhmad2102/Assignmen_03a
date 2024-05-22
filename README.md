@@ -1,13 +1,18 @@
-# Assignment_2_Data_parsing_server_part_1
-Data parsing server - Part I
+# 03a [Individual] Data parsing server - Part III
 
 
-This is a continuation of the assignment: Data Parsing.
+This is a continuation of the assignment: Data parsing server - Part I
 
-Create a single server. Using one of the langauges from the data parsing assignment would make sense. Remember, at this level it is your job to make decision such as language, libraries and frameworks.
+Create another server in another language than previously.
 
-Create endpoints for each data parsing task that serves the data.
+Create endpoints for each data parsing task that serves the data. There should be an endpoint for each: XML, CSV YAML, TXT and JSON.
 
-There should be an endpoint for each: XML, CSV YAML, TXT and JSON.
+Make the two servers communicate.
 
-Hand-in: Submit links to the relevant folder in your Github repository.
+Let's call the server from the assignment Part I (Server A) and the one here (Server B).
+
+If I make a GET request to Server A, it should act as a client for Server B, get the response from Server B and give it to me as a response.
+
+...and...
+
+If I make a GET request to Server B, it should act as a client for Server A, get the response from Server A and give it to me as a response.
